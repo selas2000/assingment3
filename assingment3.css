@@ -1,0 +1,60 @@
+*.{
+    
+    box-sizing: border-box;
+    
+}
+
+.slideshowimg{
+    width: 170px;
+    height: 100px;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+    color: rgb(68, 24, 124);
+}
+
+    h1:hover{
+        text-shadow: 3px 1px 1px blue;   
+    }
+
+table {
+    border-collapse: collapse;
+    background-color: indigo;
+    margin: auto;
+  }
+  
+table, th, td {
+    border: 3px solid seagreen;
+    padding:10px;
+   
+  }
+
+td:nth-child(2)
+{
+    height: 150px;
+    width: 200px;
+}
+
+#img{
+      height: 100px;
+      width: 100px;
+}
+
+#ans{
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    font-size: 2em;
+    height: 100%;
+    width: 100%;
+}
+
+input:hover{
+    border: 2px solid gray;
+}
+
+label{
+    color: honeydew;
+    margin-top: 5px;
+}
